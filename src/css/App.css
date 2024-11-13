@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50px 2fr 1fr;
+}
+
+#top-menu{
+    background-color: rgb(255, 238, 184);
+    grid-column: span 2;
+}
+
+#side-menu{
+    background-color: rgb(219, 219, 255);
+    grid-row: span 2;
+}
+
+#graph-viwer{
+    background-color: rgb(255, 219, 219);
+}
+
+#console{
+    background-color: rgb(220, 255, 220);
+}
